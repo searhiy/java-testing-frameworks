@@ -20,6 +20,6 @@ public class Manager extends Worker {
 
     @Override
     public double calculateSalary(int reportedHours) {
-        return 0;
+        return salaryAlgorithm.calculateSalary(reportedHours, getHourRate(), this);
     }
 }

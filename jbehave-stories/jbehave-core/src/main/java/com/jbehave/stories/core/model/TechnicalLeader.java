@@ -11,7 +11,7 @@ public class TechnicalLeader extends Worker {
     private SalaryAlgorithm salaryAlgorithm = new TechLeaderAlgorithm();
 
     public TechnicalLeader(){
-
+        setHourRate(20);
     }
 
     public TechnicalLeader(double hourRate){
@@ -20,6 +20,6 @@ public class TechnicalLeader extends Worker {
 
     @Override
     public double calculateSalary(int reportedHours) {
-        return 0;
+        return salaryAlgorithm.calculateSalary(reportedHours, getHourRate(), this);
     }
 }

@@ -11,7 +11,7 @@ public class JuniorEngineer extends Worker {
     private SalaryAlgorithm salaryAlgorithm = new JuniorAlgorithm();
 
     public JuniorEngineer(){
-
+        setHourRate(3);
     }
 
     public JuniorEngineer(double hourRate){

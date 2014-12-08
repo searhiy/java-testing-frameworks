@@ -5,7 +5,7 @@ package com.jbehave.stories.core.model;
  */
 public abstract class Worker {
 
-    private double hourRate = 1;
+    private double hourRate;
 
     private boolean bonus;
 

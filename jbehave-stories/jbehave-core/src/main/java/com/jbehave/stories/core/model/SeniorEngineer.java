@@ -11,7 +11,7 @@ public class SeniorEngineer extends Worker {
     private SalaryAlgorithm salaryAlgorithm = new SeniorAlgorithm();
 
     public SeniorEngineer(){
-
+        setHourRate(12);
     }
 
     public SeniorEngineer(double hourRate){
@@ -20,6 +20,6 @@ public class SeniorEngineer extends Worker {
 
     @Override
     public double calculateSalary(int reportedHours) {
-        return 0;
+        return salaryAlgorithm.calculateSalary(reportedHours, getHourRate(), this);
     }
 }

@@ -8,11 +8,10 @@ import com.jbehave.stories.core.strategies.SalaryAlgorithm;
  */
 public class IntermediateEngineer extends Worker {
 
-
     private SalaryAlgorithm salaryAlgorithm = new IntermediateAlgorithm();
 
     public IntermediateEngineer(){
-
+        setHourRate(7);
     }
 
     public IntermediateEngineer(double hourRate){
@@ -21,6 +20,6 @@ public class IntermediateEngineer extends Worker {
 
     @Override
     public double calculateSalary(int reportedHours) {
-        return 0;
+        return salaryAlgorithm.calculateSalary(reportedHours, getHourRate(), this);
     }
 }
