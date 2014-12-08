@@ -12,6 +12,7 @@
 
   <modules>
     <module>jbehave-core</module>
+    <module>jbehave-spring</module>
   </modules>
 
   <parent>
