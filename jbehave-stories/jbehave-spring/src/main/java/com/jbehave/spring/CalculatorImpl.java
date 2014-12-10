@@ -1,7 +1,7 @@
 package com.jbehave.spring;
 
-import com.jbehave.stories.core.model.Worker;
-import com.jbehave.stories.core.model.WorkerIdentifier;
+import com.jbehave.spring.model.Worker;
+import com.jbehave.spring.model.WorkerIdentifier;
 
 /**
  * Created by serhii on 07.12.14.

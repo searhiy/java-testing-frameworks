@@ -1,7 +1,7 @@
 package com.jbehave.spring.model;
 
-import com.jbehave.stories.core.strategies.ManagerAlgorithm;
-import com.jbehave.stories.core.strategies.SalaryAlgorithm;
+import com.jbehave.spring.strategies.ManagerAlgorithm;
+import com.jbehave.spring.strategies.SalaryAlgorithm;
 
 /**
  * Created by serhii on 07.12.14.

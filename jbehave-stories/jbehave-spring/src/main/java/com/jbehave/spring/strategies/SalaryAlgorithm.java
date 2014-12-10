@@ -1,6 +1,6 @@
 package com.jbehave.spring.strategies;
 
-import com.jbehave.stories.core.model.Worker;
+import com.jbehave.spring.model.Worker;
 
 /**
  * Created by serhii on 07.12.14.
